@@ -66,12 +66,14 @@ int main(int argc, char** argv) {
 
 void menu(PELICULA P[], int dimP, int A[][dim_columna], int dimF, int dimC,RANKING R[],int dimR) {
     cargar_alquiler(A, &dimF, &dimC);
-    mostrar_alquiler(A, dimF, dimC);
+    //mostrar_alquiler(A, dimF, dimC);
     cargar_peliculas(P, &dimP);
-    mostrar_peliculas(P, dimP);
+    //mostrar_peliculas(P, dimP);
     int opcion = -1;
     do {
         printf("\n\n------------------------------------");
+        printf("\n           MENU DE OPCIONES");
+        printf("\n------------------------------------");
         printf("\n1_ Consulta 1");
         printf("\n2_ Consulta 2");
         printf("\n3_ Consulta 3");
