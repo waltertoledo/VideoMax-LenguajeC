@@ -6,7 +6,7 @@
 
 /* 
  * File:   main.c
- * Author: walte
+ * Author: Walter Toledo
  *
  * Created on 14 de abril de 2017, 20:15
  */
